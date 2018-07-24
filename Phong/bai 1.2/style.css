@@ -1,0 +1,141 @@
+/*--------base---------*/
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.col-33{
+    width: 33.33%;
+}
+.col-66{
+    width: 66.67%;
+}
+.col{
+    float: left;
+}
+.list-inline{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-inline li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+.clear-fix{
+    clear: both;
+}
+h2,
+h3,
+p,h4{
+    margin: 0;
+}
+.title--base{
+    color: #1ebee4;
+}
+.btn--site{
+    padding: 10px;
+}
+/*--------header----------*/
+.header{
+    background-color: #333;
+}
+.header__logo{
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 15px 0;
+    max-height: 50px;
+}
+.header__menu li{
+    line-height: 50px;
+    padding: 15px 0;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #999999;
+}
+.header__menu li:hover{
+    color: #ffffff; 
+}
+/*--------section1----------*/
+.section1__content{
+    padding: 15px 0;
+    
+}
+.section1__left{
+    padding: 0 15px;
+}
+.section1__left img{
+    border-radius: 10px;
+}
+.section1__content2{
+    padding: 0 15px;
+}
+.section1__content2--title{
+    font-size: 27px;
+}
+.section1__content2--des{
+    margin: 10px 0;
+}
+.section1__content2--des{
+    font-size: 13px;
+    line-height: 1.8;
+}
+.section1__content2--btn{
+    background-color: #207ad4;
+    max-width: 100px;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+/*--------section2---------*/
+.section2__content{
+    padding: 15px 0;
+    margin: 0 15px;
+    border-top: 1px solid #999;
+}
+.section2__content2{
+    line-height: 50px;
+    max-height: 50px;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+}
+/*--------section3---------*/
+.section3__content{
+    padding: 20px 0;
+} 
+.section3__content2{
+    padding: 0 15px;
+}
+.section3__content2--title{
+    font-size: 22px;
+}
+.section3__content2--des{
+    font-size: 13px;
+    margin: 10px 0;
+}
+.section3__content--btn{
+    max-width: 60px;
+    color: #000;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+/*------footer----------*/
+.footer__content{
+    padding: 0 15px;
+    line-height: 40px;
+}
