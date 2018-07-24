@@ -28,6 +28,7 @@ a{
 }
 img{
     max-width: 100%;
+    vertical-align: top;
 }
 .clear-fix{
     clear: both;
@@ -51,6 +52,9 @@ p{
     line-height: 20px;
     padding: 20px 0px 20px 30px;
     color: #999;
+}
+.header__menu li a{
+    line-height: 22px;
 }
 .header__menu li:hover{
     color: #fff;
