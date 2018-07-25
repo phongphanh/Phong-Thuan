@@ -1,0 +1,334 @@
+/* base */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#wrapper {}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.row-inline {
+  margin: 0 -15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.col-left {
+  float: left;
+}
+
+.col-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clear-fix {
+  clear: both;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.col-33 {
+  width: 33.333%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.active {
+  font-weight: 700;
+}
+
+
+/* css */
+
+#header {
+  background: #222222;
+  color: #8c8c8e;
+}
+
+.header__logo {
+  padding: 0 15px;
+  line-height: 58px;
+  font-size: 24px;
+  transition: all .5s ease;
+}
+
+ul.main--menu {
+  display: block;
+  font-size: 0;
+}
+
+ul.main--menu li a {
+  padding: 18px 15px;
+  display: block;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+ul.main--menu li a:hover {
+  background: #8c8c8e;
+  color: #222222;
+}
+
+.btn {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  padding: 15px;
+  display: inline-block;
+  transition: all .5s ease;
+}
+
+
+/* banner */
+
+#banner {
+  background: url("http://via.placeholder.com/1900x1080") center no-repeat;
+  position: relative;
+}
+
+.banner__title {
+  font-size: 24px;
+  color: #fff;
+  padding: 320px 0 50px;
+}
+
+.banner__dots {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+}
+
+.banner__dots--item {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  transition: all .5s ease;
+  outline: none;
+}
+
+.banner__dots--item:hover {
+  background: #fff;
+}
+
+
+/* intro */
+
+#intro {
+  padding: 40px 0;
+}
+
+.intro__title {
+  padding: 0 15px;
+}
+
+.intro__title h1 {
+  font-size: 32px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.intro__item--content {
+  margin: 20px 15px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.intro__item--content h4 {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 20px 0;
+  padding-left: 15px;
+  font-size: 20px;
+  background: #f5f5f5;
+}
+
+.intro__item--content p {
+  padding: 15px;
+}
+
+.btn--more {
+  margin: 0 0 15px 15px;
+}
+
+a.btn--more:hover {
+  color: #e1e1e1;
+  background: #8c8c8e;
+}
+
+
+/* end intro */
+
+.protfollo__title {
+  padding: 0 15px;
+}
+
+#protfollo {
+  padding-bottom: 20px;
+}
+
+.protfollo__title h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.protfollo__item {
+  margin-top: 20px;
+}
+
+.protfollo__item--content {
+  padding: 0 15px;
+  transition: all .5s ease;
+}
+
+.protfollo__item--content a img:hover {
+  transform: scale(1.05);
+}
+
+
+/* feature */
+
+#feature {
+  padding-top: 50px;
+}
+
+.feature__title {
+  padding: 0 15px;
+}
+
+.feature__title h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.feature__content {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: 0 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.feature__desc--content {
+  padding: 0 15px;
+  padding-left: 0;
+}
+
+.feature__desc--content h6 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.feature__desc--menu {
+  padding: 15px 0 15px 40px;
+}
+
+.feature__desc--menu ul li {
+  list-style: disc;
+  display: list-item;
+  line-height: 1.6;
+}
+
+.feature__images--content {
+  padding: 0 15px;
+  padding-right: 0;
+}
+
+
+/* contact */
+
+#contact {
+  padding: 20px 0;
+}
+
+.contact__content {
+  background: #f5f5f5;
+  margin: 0 15px;
+  padding: 20px 0;
+}
+
+.contact__sub {
+  width: 58.4%;
+}
+
+.contact__sub p {
+  padding: 0px 15px;
+  line-height: 1.4;
+}
+
+.contact__button {
+  width: 41.6%;
+}
+
+.btn--contact {
+  display: block;
+  margin: 0 15px;
+  background: #fff;
+}
+
+.btn--contact:hover {
+  background: #8c8c8e;
+  color: #e1e1e1;
+}
+
+
+/* footer */
+
+#footer {
+  line-height: 120px;
+}
+
+#footer p {
+  margin: 0 15px;
+  border-top: 1px solid #e1e1e1;
+  color: #585858;
+}
