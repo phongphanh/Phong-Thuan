@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bài 4</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header" class="header">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="header__left col">
+              <p class="phone">
+                <i class="fas fa-phone-square"></i>
+                <span>
+                  <a href="#">
+                    0988888888
+                  </a>
+                </span>
+              </p>
+              <p class="mail">
+                <i class="fas fa-envelope"></i>
+                <span>
+                  <a href="#">
+                    abc@gmail.com
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="header__right col-right">
+              <nav>
+                <ul class="main--menu">
+                  <li>
+                    <a href="#" class="account">
+                      <span>
+                        Tài khoản
+                        <i class="fas fa-caret-down"></i>
+                      </span>
+                    </a>
+                    <ul class="drop--down">
+                      <li>
+                        <a href="#">
+                          <span>
+                              Giỏ hàng
+                            </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span>
+                              Thanh toán
+                            </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="login">
+                      <span>
+                        Đăng nhập
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="clear-fix"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <section id="banner" class="banner">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="banner__content">
+              <div class="logo col">
+                <div class="logo__image">
+                  <a href="#">
+                    <img src="images/logo-green.png" alt="logo">
+                  </a>
+                </div>
+              </div>
+              <div class="menu col">
+                <nav>
+                  <ul class="menu--product">
+                    <li>
+                      <a href="#">
+                        <span>
+                          Sản phẩm
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>
+                          Blog
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="cart col-right">
+                <div class="cart__content">
+                  <div class="cart__amount">
+                    <a href="#">
+                      <span class="amount">
+                        <i class="fas fa-shopping-cart"></i>
+                        0
+                      </span>
+                      <span>
+                        0₫
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="clear-fix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end banner -->
+    <section id="search" class="search">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="search__content">
+              <div class="search__main">
+                <div class="search__listbox col">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fas fa-bars"></i>
+                        <span>Danh mục</span>
+                      </a>
+                      <ul class="listbox">
+                        <li><a href="#">Rau củ</a></li>
+                        <li><a href="#">Hoa quả</a></li>
+                        <li><a href="#">Rau xanh</a></li>
+                        <li><a href="#">Thịt</a></li>
+                        <li><a href="#">Thủy sản</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="search__input col">
+                  <div class="search__input--content">
+                    <p>
+                      <div class="col title--search">
+                        <span class="search__title">All Category</span>
+                      </div>
+                      <div class="col input">
+                        <span class="input--search">
+                          <input type="text" name="search" id="search" placeholder="Search Item ...">
+                        </span>
+                      </div>
+                      <div class="col-right">
+                        <span class="btn-search">
+                          <i class="fas fa-search"></i>
+                        </span>
+                      </div>
+                    </p>
+                    <div class="clear-fix"></div>
+                  </div>
+                </div>
+                <div class="clear-fix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end search -->
+    <section id="product" class="product">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="product__home">
+              <h5>Home</h5>
+            </div>
+            <div class="product__news">
+              <div class="product__news--title">
+                <h3 class="title">Sản phẩm mới</h3>
+              </div>
+              <div class="product__navigate">
+                <div class="product__news--menu col col-75">
+                  <ul>
+                    <li class="active"><a href="#" class="btn">Rau củ</a></li>
+                    <li><a href="#" class="btn">Hoa quả</a></li>
+                    <li><a href="#" class="btn">rau xanh</a></li>
+                    <li><a href="#" class="btn">thịt</a></li>
+                    <li><a href="#" class="btn">thủy sản</a></li>
+                  </ul>
+                </div>
+                <div class="arrow col col-25">
+                  <div class="arrow__content">
+                    <div class="arrow__left">
+                      <i class="fas fa-angle-left"></i>
+                    </div>
+                    <div class="arrow__right">
+                      <i class="fas fa-angle-right"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear-fix"></div>
+              </div>
+              <div class="content">
+                <div class="product__row">
+                  <div class="col col-25">
+                    <div class="product__item">
+                      <div class="product__content">
+                        <div class="product__item--img">
+                          <img src="images/cu-cai.jpg" alt="anh">
+                        </div>
+                        <div class="product--base">
+                          <div class="product__item--rated text-center">
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="product__item--name text-center">
+                            <a href="#">Củ cải</a>
+                          </div>
+                          <div class="product__item--money text-center">
+                            <span>12000₫</span>
+                          </div>
+                          <div class="product__item--buy text-center">
+                            <div class="product__item--heart">
+                              <a href="#" class="btn btn-primary">
+                                <i class="far fa-heart"></i>
+                              </a>
+                            </div>
+                            <div class="product__item--add">
+                              <a href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col col-25">
+                    <div class="product__item">
+                      <div class="product__content">
+                        <div class="product__item--img">
+                          <img src="images/cu-cai.jpg" alt="anh">
+                          <img src="images/sale-label-product.png" class="sale" alt="sale">
+                        </div>
+                        <div class="product--base">
+                          <div class="product__item--rated text-center">
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="product__item--name text-center">
+                            <a href="#">Củ cải</a>
+                          </div>
+                          <div class="product__item--money text-center">
+                            <span class="through">
+                              <small>
+                                <strike>12000₫</strike>
+                              </small>
+                            </span>
+                            <span>10000₫</span>
+                          </div>
+                          <div class="product__item--buy text-center">
+                            <div class="product__item--heart">
+                              <a href="#" class="btn btn-primary">
+                                <i class="far fa-heart"></i>
+                              </a>
+                            </div>
+                            <div class="product__item--add">
+                              <a href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col col-25">
+                    <div class="product__item">
+                      <div class="product__content">
+                        <div class="product__item--img">
+                          <img src="images/cu-cai.jpg" alt="anh">
+                        </div>
+                        <div class="product--base">
+                          <div class="product__item--rated text-center">
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="product__item--name text-center">
+                            <a href="#">Củ cải</a>
+                          </div>
+                          <div class="product__item--money text-center">
+                            <span>12000₫</span>
+                          </div>
+                          <div class="product__item--buy text-center">
+                            <div class="product__item--heart">
+                              <a href="#" class="btn btn-primary">
+                                <i class="far fa-heart"></i>
+                              </a>
+                            </div>
+                            <div class="product__item--add">
+                              <a href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-25">
+                    <div class="product__item">
+                      <div class="product__content">
+                        <div class="product__item--img">
+                          <img src="images/cu-cai.jpg" alt="anh">
+                        </div>
+                        <div class="product--base">
+                          <div class="product__item--rated text-center">
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="product__item--name text-center">
+                            <a href="#">Củ cải</a>
+                          </div>
+                          <div class="product__item--money text-center">
+                            <span>12000₫</span>
+                          </div>
+                          <div class="product__item--buy text-center">
+                            <div class="product__item--heart">
+                              <a href="#" class="btn btn-primary">
+                                <i class="far fa-heart"></i>
+                              </a>
+                            </div>
+                            <div class="product__item--add">
+                              <a href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clear-fix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="product--highlight" class="product--highlight">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="product--highlight__title">
+              <h3 class="title">Sản phẩm nổi bật</h3>
+            </div>
+            <div class="product--highlight__row">
+              <div class="product--highlight__content">
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>10000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span>12000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>9000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span>12000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear-fix"></div>
+              </div>
+            </div>
+            <div class="product--highlight__row">
+              <div class="product--highlight__content">
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span>12000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span>12000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/Phi-lê-bò-200x200-150x150.jpg" alt="anh">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span>12000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--highlight__item">
+                    <div class="item__content">
+                      <div class="product--highlight__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>9000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear-fix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="product--sale" class="product--sale">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="product--sale__title">
+              <h3 class="title">Sản phẩm giảm giá</h3>
+            </div>
+            <div class="product--sale__row">
+              <div class="product--sale__content">
+                <div class="col col-25">
+                  <div class="product--sale__item">
+                    <div class="item__content">
+                      <div class="product--sale__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>10000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--sale__item">
+                    <div class="item__content">
+                      <div class="product--sale__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>9000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--sale__item">
+                    <div class="item__content">
+                      <div class="product--sale__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>10000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--sale__item">
+                    <div class="item__content">
+                      <div class="product--sale__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>8000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear-fix"></div>
+              </div>
+            </div>
+            <div class="product--sale__row">
+              <div class="product--sale__content">
+                <div class="col col-25">
+                  <div class="product--sale__item">
+                    <div class="item__content">
+                      <div class="product--sale__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>12000₫</strike>
+                                </small>
+                              </span>
+                          <span>11000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-25">
+                  <div class="product--sale__item">
+                    <div class="item__content">
+                      <div class="product--sale__img text-center">
+                        <img src="images/TomHum.jpg" alt="anh">
+                        <img src="images/sale-label-product.png" class="sale" alt="sale">
+                      </div>
+                      <div class="product--base reset">
+                        <div class="product__item--name text-center">
+                          <a href="#">Củ cải</a>
+                        </div>
+                        <div class="product__item--money text-center">
+                          <span class="through">
+                                <small>
+                                  <strike>10000₫</strike>
+                                </small>
+                              </span>
+                          <span>12000₫</span>
+                        </div>
+                        <div class="product__item--buy text-center">
+                          <div class="product__item--heart">
+                            <a href="#" class="btn btn-primary">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="product__item--add">
+                            <a href="#" class="btn btn-primary">Thêm vào gi?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear-fix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end product__sale -->
+    <section id="service" class="service">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="service__content">
+              <div class="col col-20">
+                <div class="service__item text-center">
+                  <div class="service__item--icon">
+                    <i class="far fa-thumbs-up"></i>
+                  </div>
+                  <div class="service__item--title">
+                    <p>Chất lượng</p>
+                  </div>
+                  <div class="service__item--sub text-center">
+                    <p>Sản phẩm được kiểm định chất lượng của bộ y tế</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-20">
+                <div class="service__item text-center">
+                  <div class="service__item--icon">
+                    <i class="far fa-thumbs-up"></i>
+                  </div>
+                  <div class="service__item--title">
+                    <p>Chất lượng</p>
+                  </div>
+                  <div class="service__item--sub text-center">
+                    <p>Sản phẩm được kiểm định chất lượng của bộ y tế</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-20">
+                <div class="service__item text-center">
+                  <div class="service__item--icon">
+                    <i class="far fa-thumbs-up"></i>
+                  </div>
+                  <div class="service__item--title">
+                    <p>Chất lượng</p>
+                  </div>
+                  <div class="service__item--sub text-center">
+                    <p>Sản phẩm được kiểm định chất lượng của bộ y tế</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-20">
+                <div class="service__item text-center">
+                  <div class="service__item--icon">
+                    <i class="far fa-thumbs-up"></i>
+                  </div>
+                  <div class="service__item--title">
+                    <p>Chất lượng</p>
+                  </div>
+                  <div class="service__item--sub text-center">
+                    <p>Sản phẩm được kiểm định chất lượng của bộ y tế</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-20">
+                <div class="service__item text-center">
+                  <div class="service__item--icon">
+                    <i class="far fa-thumbs-up"></i>
+                  </div>
+                  <div class="service__item--title">
+                    <p>Chất lượng</p>
+                  </div>
+                  <div class="service__item--sub text-center">
+                    <p>Sản phẩm được kiểm định chất lượng của bộ y tế</p>
+                  </div>
+                </div>
+              </div>
+              <div class="clear-fix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end service -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="footer__top">
+              <div class="footer__top--content">
+                <h4>Hot Tags</h4>
+                <ul>
+                  <li><a href="#">Hoa quả</a></li>
+                  <li><a href="#">Rau củ</a></li>
+                  <li><a href="#">Rau quả</a></li>
+                  <li><a href="#">Rau xanh</a></li>
+                  <li><a href="#">Thịt</a></li>
+                  <li><a href="#">Thủy sản</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__copyright">
+              <div class="footer__copyright--content">
+                <div class="copyright__left col">
+                  <p>
+                    &copy; 2018
+                    <a href="#">Vietmez Store.</a> All Rights Reserved.
+                  </p>
+                </div>
+                <div class="copyright__link col-right">
+                  <a href="#">
+                    <img src="http://via.placeholder.com/40x24" alt="link">
+                  </a>
+                  <a href="#">
+                    <img src="http://via.placeholder.com/40x24" alt="link">
+                  </a>
+                  <a href="#">
+                    <img src="http://via.placeholder.com/40x24" alt="link">
+                  </a>
+                  <a href="#">
+                    <img src="http://via.placeholder.com/40x24" alt="link">
+                  </a>
+                </div>
+                <div class="clear-fix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <section id="button--top" class="button--top">
+      <a href="#" class="btn-scrollTop">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+      </a>
+    </section>
+  </div>
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
