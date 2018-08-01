@@ -1370,7 +1370,7 @@ input:focus{
     transition: all 0.5s ease;
 }
 .submenu-bar2.active-menu{
-    height: auto;
+    height: 312px;
     opacity: 1;
     visibility: visible;
 }
@@ -1382,6 +1382,9 @@ input:focus{
     width: 100%;
     margin-left: -15px;
     color: #ffffff;
+}
+.account li{
+    padding: 10px 15px;
 }
 /*----responsive------*/
 @media only screen and (max-width:1365px){
