@@ -87,4 +87,8 @@ $(document).ready(function() {
     $(".fa-angle-up").toggleClass("disable");
     $(".down ul").toggleClass("up__down");
   });
+  $(window).resize(function() {
+    $("#wrapper").removeClass("active1");
+    $(".menu--mobile__lv2").removeClass("active");
+  });
 });
