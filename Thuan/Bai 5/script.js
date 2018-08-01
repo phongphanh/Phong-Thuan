@@ -45,4 +45,46 @@ $(document).ready(function() {
     slide[i].className += ' active';
     index = i;
   });
+  // 
+  var x = 12.5;
+  var screen = 12.5 * 4;
+  var index1 = 0;
+  setInterval(function() {
+    if (Math.round(index1 + screen) == 100) {
+      $('.insta__slide').removeClass('animated');
+      index1 = 0;
+      $('.insta__slide').css('transform', 'translateX(-' + index1 + '%');
+      setTimeout(function() {
+        $('.insta__slide').addClass('animated');
+      }, 1000);
+
+    } else {
+      index1 += x;
+      $('.insta__slide').css('transform', 'translateX(-' + index1 + '%');
+    }
+  }, 1000);
+  $(".fa-bars").click(function(e) {
+    if (!e)
+      e = window.event;
+
+    //IE9 & Other Browsers
+    if (e.stopPropagation) {
+      e.stopPropagation();
+    }
+    //IE8 and Lower
+    else {
+      e.cancelBubble = true;
+    }
+    $(".menu--mobile__lv2").addClass("active");
+    $("#wrapper").addClass("active1");
+  });
+  $("#wrapper").click(function() {
+    $(this).removeClass("active1");
+    $(".menu--mobile__lv2").removeClass("active");
+  });
+  $(".down").click(function() {
+    $(".fa-angle-down").toggleClass("disable");
+    $(".fa-angle-up").toggleClass("disable");
+    $(".down ul").toggleClass("up__down");
+  });
 });
