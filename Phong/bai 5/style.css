@@ -1357,6 +1357,13 @@ input:focus{
 .menu-bar-content li i{
     vertical-align: top;
     float: right;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.menu-bar-content li i.active{
+    transform: rotate(360deg);
 }
 .submenu-bar2{
     position: relative;
